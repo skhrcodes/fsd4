@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+input, textarea {
+  margin: 5px 0;
+  padding: 10px;
+}
+button {
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.actions button {
+  margin: 5px;
+}
